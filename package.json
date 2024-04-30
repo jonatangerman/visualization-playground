@@ -1,6 +1,14 @@
 {
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "data": "firebase emulators:start"
+  },
   "dependencies": {
     "lodash": "^4.17.21",
     "primeicons": "^7.0.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.7.5"
   }
 }
